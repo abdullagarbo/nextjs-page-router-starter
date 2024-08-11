@@ -33,6 +33,6 @@ export async function getStaticProps() {
         description: meetup.description,
       })),
     },
-    revalidate: 3600,
+    revalidate: 1,
   };
 }
